@@ -1,0 +1,39 @@
+body { 
+        font-family: sans-serif; 
+        max-width: 480px; 
+        margin: 40px auto; 
+        padding: 0 16px; 
+    }
+form  { 
+        display: flex; 
+        flex-direction: column; 
+        gap: 12px; 
+        margin-bottom: 24px;
+     }
+input { 
+        padding: 8px; 
+        font-size: 1rem; 
+    }
+button { 
+        padding: 10px; 
+        font-size: 1rem; 
+        cursor: pointer; }
+
+.card {
+         border: 1px solid #ccc; 
+         border-radius: 8px; 
+         padding: 16px; 
+         margin-bottom: 8px; }
+
+.abaixo { 
+        color: #1565c0; 
+    } 
+        .normal { 
+            color: #2e7d32;
+         }
+.sobrepeso {
+         color: #ef6c00;
+         } 
+.obesidade { 
+    color: #c62828; 
+}

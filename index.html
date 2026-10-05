@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de IMC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Calculadora de IMC</h1>
+
+  <form id="form-imc">
+    <label>Peso (kg)
+      <input type="number" id="peso" step="0.1" min="0" required>
+    </label>
+    <label>Altura (m)
+      <input type="number" id="altura" step="0.01" min="0" max="2.5" required>
+    </label>
+    <button type="submit">Calcular IMC</button>
+  </form>
+
+  <div id="resultado"></div>
+
+  <h2>Histórico de cálculos</h2>
+  <button type="button" id="limpar-historico">Limpar histórico</button>
+  <ul id="historico"></ul>
+
+  <script src="script.js"></script>
+  <footer>
+    <h4>Desenvolvido por Beatriz Vitória</h4>
+  </footer>
+</body>
+</html>
